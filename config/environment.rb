@@ -1,6 +1,6 @@
 require 'bundler/setup'
 Bundler.require
-
+#require_relative '../app/models/student.rb'
 Dir[File.join(File.dirname(__FILE__), "../app/models", "*.rb")].each {|f| require f}
 Dir[File.join(File.dirname(__FILE__), "../lib/support", "*.rb")].each {|f| require f}
 
